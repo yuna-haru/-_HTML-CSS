@@ -211,3 +211,45 @@ ul {
   padding: 90px 0;
   text-align: center;
 }
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+}
+.contact-title::after {
+  content: "";
+  display: block;
+  background-color: #ec715F;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 30px auto;
+}
+.contact-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.contact-group {
+  display: flex;
+  margin: 0 auto;
+}
+.contact-adress {
+  width: 400px;
+  margin: 0 auto;
+
+}
+.contact-adress-title {
+  text-align: left;
+  font-size: 20px;
+  margin: 20px 0 5px 0;
+}
+.contact-sns {
+  width: 400px;
+  margin: 0 auto;
+}
+.fa {
+  font-size: 50px;
+  margin-right: 20px;
+}
+.fa:last-child {
+  margin-right: 0;
+}
