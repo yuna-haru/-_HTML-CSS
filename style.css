@@ -230,20 +230,24 @@ ul {
 }
 .contact-group {
   display: flex;
+  width: 800px;
   margin: 0 auto;
 }
 .contact-adress {
-  width: 400px;
   margin: 0 auto;
-
 }
 .contact-adress-title {
   text-align: left;
   font-size: 20px;
   margin: 20px 0 5px 0;
 }
+.contact-adress-title:first-child {
+  margin-top: 0;
+}
+.contact-sns-title {
+  font-size: 20px;
+}
 .contact-sns {
-  width: 400px;
   margin: 0 auto;
 }
 .fa {
@@ -252,4 +256,13 @@ ul {
 }
 .fa:last-child {
   margin-right: 0;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #ec715F;
+  color: #fafafa;
+  font-size: 16px
+
 }
