@@ -272,6 +272,29 @@ footer {
 
 @media screen and (max-width: 767px) {
 
-  
+  .hamburger {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    
+  }
+  .hamburger_bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 0;
+  }
+  .hamburger_bar:nth-child(1){
+    top: 0;
+  }
+  .hamburger_bar:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .hamburger_bar {
+    top: 100%;
+    transform: translateY(-100%);
+  }
 
 }
