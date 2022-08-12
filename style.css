@@ -322,11 +322,12 @@ footer {
   }
   .d-none {
     display: none;
+    flex-flow: none;
   }
+
   .img {
-    width: 100%;
-    margin: 10px 10px 0 0;
-    text-align: center;
+    width: 300px;
+    margin: 0 auto;
   }
   .bg-image {
     margin: 0;
@@ -340,6 +341,7 @@ footer {
     text-align: center;
   }
   .feature-box {
+    width: 100%;
     margin-right: 0;
     margin-bottom: 10px;
   }
